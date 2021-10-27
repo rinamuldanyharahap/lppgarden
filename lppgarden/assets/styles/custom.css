@@ -1,0 +1,47 @@
+body {
+
+background-color: white;
+background-image: none;
+/* border :5px solid #EDE1CA; */
+font-family: Helvetica, Arial, Verdana, San-serif
+
+}
+
+.hero {
+  
+  background: white url(../images/books.jpg);
+  color: lightgray;
+
+}
+
+.hero > * {
+
+background: none;
+
+}
+
+.cta1 {
+  background-color: #A19B91;
+  color : white;
+ 
+}
+
+.cta2 {
+
+background-color: #EDE1CA;
+
+}
+
+/* Start Mobile */
+
+@media screen (min-width: 480px) {
+
+.hero {
+  
+  background: none;
+
+
+}
+}
+
+/* End Mobile */
